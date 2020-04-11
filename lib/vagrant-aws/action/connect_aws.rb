@@ -1,5 +1,7 @@
-require "fog"
+require "fog/core"
+require "fog/aws"
 require "log4r"
+require "active_support/core_ext/hash/except"
 
 module VagrantPlugins
   module AWS
